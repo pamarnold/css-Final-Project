@@ -1,0 +1,123 @@
+/*Using Desktop 26" Monitor*/
+body{
+  margin: 2%;
+  font-size: 30px;
+  padding: 10px;
+  }
+  header {
+  background-image: url(../images/flywheel.jpg);
+  background-repeat: none;
+  background-color: #483D8B
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 15px;
+  padding-bottom: 100px;
+  }
+h1 {
+  text-transform: uppercase;
+  color: #000066;
+  text-align: center;
+}
+h2 {
+  color: #000066;
+  font-size: 30px;
+  text-transform: initial;  
+  text-shadow: 4px 4px rgba(50,50,50,.25);
+}
+nav {
+  text-align: center;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  text-align:center;
+  color: #000000;
+  background-color: #cc99ff;
+  width: 15%;
+  margin-right: 3%;
+  margin-left: 3%;
+  padding-top: 20px;
+  padding-bottom: 15px; 
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+.active {
+  background-color: #ffffff;
+  opacity: 1;
+}
+.right {
+  width:75%;
+  display:inline-block;
+  padding-left: 10px;
+ }
+.left {
+  width:10%;
+  display:inline-block;
+  float:left;
+  background: #A1D490;
+  padding: 20px 20px 0px 20px;
+  -o-height: 100vh;
+  -ms-height: 100vh;
+  height: 100vh;
+}
+.left img{
+  width: 80%;
+  height: 10%;
+  border: 2px solid #000000;
+  display: block;
+  margin: 20%  auto;
+}
+table {
+  width: 88%;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+th {
+  border: 2px 2px 4px 2px solid black;
+  font-size: 20px;
+  border-bottom: 10px solid black;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -o-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white; 
+}
+th:first-child {
+  text-align: left;
+}
+td { 
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: #E3D212;
+  }
+td:first-child {
+  text-align: left;
+}
+tr {
+  opacity: .6;
+}
+p {
+  font-size: 20px;
+}
+/*The following two styling features are extras*/
+td:hover {
+  opacity: 1;
+  font-size: 22px;
+}
+nav a:hover:first-letter {
+    color: blue;
+}
+
